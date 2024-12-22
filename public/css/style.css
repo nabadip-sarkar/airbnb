@@ -1,0 +1,87 @@
+body{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fa424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: black !important;
+}
+.f-info{
+    display: flex;
+    background-color: rgb(224, 221, 221);
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.f-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-links a:hover{
+    text-decoration: underline;
+}
+.f-socials{
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+.f-socials i{
+    margin-left: 0.7rem;
+}
+.listing-card{
+    border: none !important;
+    padding-bottom: 2rem !important;
+}
+.card-body p {
+    font-weight: 500 !important;
+}
+.card-img{
+    border-radius: 1rem !important;
+}
+.listings-links{
+    text-decoration: none;
+    color: #222222;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* New adding page */
+.add-btn{
+    background-color: #fa424d !important;
+    border: none !important;
+    margin-left: 50%;
+}
+
+/* Edit page */
+.edit-btn{
+    border: none !important;
+    background-color: #fa424d !important;
+    margin-left: 50%;
+}
+/* Show page */
+.delt-edit{
+    display: flex;
+}
+.card-img{
+    height: 40vh;
+    /* width: 400px !important; */
+}
+.title{
+    font-size: large;
+}
